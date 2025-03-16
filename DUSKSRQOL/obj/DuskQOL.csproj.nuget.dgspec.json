@@ -1,0 +1,53 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/deck/Documents/DUSKQOLMOD/DuskQOL.csproj": {}
+  },
+  "projects": {
+    "/home/deck/Documents/DUSKQOLMOD/DuskQOL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/deck/Documents/DUSKQOLMOD/DuskQOL.csproj",
+        "projectName": "DuskQOL",
+        "projectPath": "/home/deck/Documents/DUSKQOLMOD/DuskQOL.csproj",
+        "packagesPath": "/home/deck/.nuget/packages/",
+        "outputPath": "/home/deck/Documents/DUSKQOLMOD/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/deck/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net46"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net46": {
+            "targetAlias": "net46",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net46": {
+          "targetAlias": "net46",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

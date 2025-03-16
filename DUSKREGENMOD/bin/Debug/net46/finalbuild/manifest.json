@@ -1,0 +1,9 @@
+{
+    "name": "EndlessModeHealthRegen",
+    "version_number": "2.0.0",
+    "website_url": "",
+    "description": "A mod that adds regenerating health to endless mode to make it more bearable!",
+    "dependencies": [
+
+    ]
+}

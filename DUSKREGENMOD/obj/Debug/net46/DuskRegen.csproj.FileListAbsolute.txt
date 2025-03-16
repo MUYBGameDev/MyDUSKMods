@@ -1,0 +1,9 @@
+/home/deck/Documents/DUSKREGENMOD/bin/Debug/net46/DuskRegen.dll
+/home/deck/Documents/DUSKREGENMOD/bin/Debug/net46/DuskRegen.pdb
+/home/deck/Documents/DUSKREGENMOD/obj/Debug/net46/DuskRegen.csproj.AssemblyReference.cache
+/home/deck/Documents/DUSKREGENMOD/obj/Debug/net46/DuskRegen.GeneratedMSBuildEditorConfig.editorconfig
+/home/deck/Documents/DUSKREGENMOD/obj/Debug/net46/DuskRegen.AssemblyInfoInputs.cache
+/home/deck/Documents/DUSKREGENMOD/obj/Debug/net46/DuskRegen.AssemblyInfo.cs
+/home/deck/Documents/DUSKREGENMOD/obj/Debug/net46/DuskRegen.csproj.CoreCompileInputs.cache
+/home/deck/Documents/DUSKREGENMOD/obj/Debug/net46/DuskRegen.dll
+/home/deck/Documents/DUSKREGENMOD/obj/Debug/net46/DuskRegen.pdb

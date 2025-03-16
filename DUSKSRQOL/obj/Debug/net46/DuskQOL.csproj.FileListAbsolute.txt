@@ -1,0 +1,9 @@
+/home/deck/Documents/DUSKQOLMOD/obj/Debug/net46/DuskQOL.GeneratedMSBuildEditorConfig.editorconfig
+/home/deck/Documents/DUSKQOLMOD/obj/Debug/net46/DuskQOL.AssemblyInfoInputs.cache
+/home/deck/Documents/DUSKQOLMOD/obj/Debug/net46/DuskQOL.AssemblyInfo.cs
+/home/deck/Documents/DUSKQOLMOD/obj/Debug/net46/DuskQOL.csproj.CoreCompileInputs.cache
+/home/deck/Documents/DUSKQOLMOD/bin/Debug/net46/DuskQOL.dll
+/home/deck/Documents/DUSKQOLMOD/bin/Debug/net46/DuskQOL.pdb
+/home/deck/Documents/DUSKQOLMOD/obj/Debug/net46/DuskQOL.csproj.AssemblyReference.cache
+/home/deck/Documents/DUSKQOLMOD/obj/Debug/net46/DuskQOL.dll
+/home/deck/Documents/DUSKQOLMOD/obj/Debug/net46/DuskQOL.pdb

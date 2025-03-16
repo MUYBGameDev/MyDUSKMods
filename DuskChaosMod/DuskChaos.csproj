@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <GameDir>/home/deck/.local/share/Steam/steamapps/common/Dusk/</GameDir>
+    <ManagedDir>$(GameDir)\Dusk_Data\Managed</ManagedDir>
+    <TargetFramework>net46</TargetFramework>
+    <FrameworkPathOverride>$(ManagedDir)</FrameworkPathOverride>
+    <GenerateTargetFrameworkAttribute>False</GenerateTargetFrameworkAttribute>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="$(ManagedDir)\*.dll" Private="False" />
+    <Reference Include="$(GameDir)\BepInEx\core\*.dll" Private="False" />
+  </ItemGroup>
+</Project>

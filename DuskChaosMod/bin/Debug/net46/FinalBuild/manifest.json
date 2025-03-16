@@ -1,0 +1,9 @@
+{
+    "name": "DuskChaos",
+    "version_number": "1.0.0",
+    "website_url": "",
+    "description": "A chaos mod for dusk where random events happen every 15 seconds!",
+    "dependencies": [
+
+    ]
+}

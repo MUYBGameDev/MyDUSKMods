@@ -1,0 +1,9 @@
+{
+    "name": "SpeedrunQOL",
+    "version_number": "1.0.1",
+    "website_url": "",
+    "description": "A QOL mod for speedrunning. Using this for runs will not be allowed on the board!",
+    "dependencies": [
+
+    ]
+}

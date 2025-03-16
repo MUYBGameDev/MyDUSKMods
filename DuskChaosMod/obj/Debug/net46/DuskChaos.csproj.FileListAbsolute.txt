@@ -1,0 +1,9 @@
+/home/deck/Documents/DuskChaosMod/bin/Debug/net46/DuskChaos.dll
+/home/deck/Documents/DuskChaosMod/bin/Debug/net46/DuskChaos.pdb
+/home/deck/Documents/DuskChaosMod/obj/Debug/net46/DuskChaos.csproj.AssemblyReference.cache
+/home/deck/Documents/DuskChaosMod/obj/Debug/net46/DuskChaos.GeneratedMSBuildEditorConfig.editorconfig
+/home/deck/Documents/DuskChaosMod/obj/Debug/net46/DuskChaos.AssemblyInfoInputs.cache
+/home/deck/Documents/DuskChaosMod/obj/Debug/net46/DuskChaos.AssemblyInfo.cs
+/home/deck/Documents/DuskChaosMod/obj/Debug/net46/DuskChaos.csproj.CoreCompileInputs.cache
+/home/deck/Documents/DuskChaosMod/obj/Debug/net46/DuskChaos.dll
+/home/deck/Documents/DuskChaosMod/obj/Debug/net46/DuskChaos.pdb

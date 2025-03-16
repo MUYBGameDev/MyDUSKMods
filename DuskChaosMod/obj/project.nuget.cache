@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mnW6FWNQX3X6wVMapR4mv5vjwtt945NUPMgWDTvXTVqjkUNdZlDVwdAdDq7UVDHDPWusX9i8gsQVwbyGwb8UXA==",
+  "success": true,
+  "projectFilePath": "/home/deck/Documents/DuskChaosMod/DuskChaos.csproj",
+  "expectedPackageFiles": [
+    "/home/deck/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "/home/deck/.nuget/packages/microsoft.netframework.referenceassemblies.net46/1.0.3/microsoft.netframework.referenceassemblies.net46.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
