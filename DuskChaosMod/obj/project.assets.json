@@ -368,11 +368,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/deck/Documents/DuskChaosMod/DuskChaos.csproj",
+      "projectUniqueName": "/home/deck/Documents/MyDUSKMods/DuskChaosMod/DuskChaos.csproj",
       "projectName": "DuskChaos",
-      "projectPath": "/home/deck/Documents/DuskChaosMod/DuskChaos.csproj",
+      "projectPath": "/home/deck/Documents/MyDUSKMods/DuskChaosMod/DuskChaos.csproj",
       "packagesPath": "/home/deck/.nuget/packages/",
-      "outputPath": "/home/deck/Documents/DuskChaosMod/obj/",
+      "outputPath": "/home/deck/Documents/MyDUSKMods/DuskChaosMod/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/deck/.nuget/NuGet/NuGet.Config"

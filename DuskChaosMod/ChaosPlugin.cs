@@ -8,9 +8,9 @@ using TMPro;
 [BepInPlugin("com.newblood.plugins.dusk.chaos", "DUSK Chaos Mod", "0.1.0.0")]
 public class ChaosPlugin : BaseUnityPlugin
 {
-    float eventTimer;
-    int eventType;
-    int rngWpn;
+    float eventTimer; //Timer for when events happen
+    int eventType; //Value for which event is triggered
+    int rngWpn; //Value for the "Free Weapon" event that decides which weapon to give you
 
     void Awake()
     {
@@ -21,6 +21,7 @@ public class ChaosPlugin : BaseUnityPlugin
 
     void Update()
     {
+        //If the eventTimer reaches 0 then activate a random event
         if (eventTimer <= 0f)
         {
             //Normal code
@@ -32,7 +33,7 @@ public class ChaosPlugin : BaseUnityPlugin
             eventTrigger();
         }
 
-        if (eventTimer > 0f) eventTimer -= Time.deltaTime;
+        if (eventTimer > 0f) eventTimer -= Time.deltaTime; //eventTimer countdown
     }
 
     void eventTrigger()
@@ -175,13 +176,14 @@ public class ChaosPlugin : BaseUnityPlugin
             eventType = 0;
             eventTimer = 15f;
         }
-        if (eventType == 12)
+        if (eventType == 12) //This is just here because of some fuckery with the event rng call
         {
             eventType = Random.Range(1, 12);
             eventTrigger();
         }
     }
 
+    //Display the current event on screen
     void ShowMessage(string message)
     {
         var text    = GameObject.Find("SecretText");
@@ -191,3 +193,5 @@ public class ChaosPlugin : BaseUnityPlugin
         timer.timer = timer.defaulttime;
     }
 }
+
+//Hello cass

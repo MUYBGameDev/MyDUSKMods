@@ -12,14 +12,16 @@ using System.Transactions;
 [BepInPlugin("com.newblood.plugins.dusk.srqol", "DUSK Speedrunning QOL Mod", "1.0.0.0")]
 public class DuskSRQOLPlugin : BaseUnityPlugin
 {
-    float speedometerType;
-    float speedometerSpeed;
-    float SecondarySpeedometerSpeed;
-    string speedometerDisplay;
-    bool permStatus;
-    bool speedDisplayType;
+    float speedometerType; //Speedometer type (idk how else to explain this lol)
+    float speedometerSpeed; //Speedometer speed value
+    float SecondarySpeedometerSpeed; //Other speedometer speed value (only used for the last speedometer type)
+    string speedometerDisplay; //Speedometer string
+    bool permStatus; //Persistent level stats bool
+    bool speedDisplayType; //Speedometer display type (idk how else to explain this one too)
+    //Text linger fix stuff {
     bool textLingerFix;
     float textLingerFixTimer;
+    //}
     void Awake()
     {
         speedometerType = 0f;
@@ -43,8 +45,9 @@ public class DuskSRQOLPlugin : BaseUnityPlugin
         var StatsK = lvlKills.GetComponent<TextMeshProUGUI>();
         var StatsS = lvlSecret.GetComponent<TextMeshProUGUI>();
         
-        speedometerDisplay = speedometerSpeed.ToString();
+        speedometerDisplay = speedometerSpeed.ToString(); //Display the speed onto the message
 
+        //Speedometer type toggle
         if(Input.GetKeyDown(KeyCode.F9))
         {
             if (speedometerType < 4f)
@@ -55,6 +58,7 @@ public class DuskSRQOLPlugin : BaseUnityPlugin
             }
         }
 
+        //Speedometer display type toggle
         if(Input.GetKeyDown(KeyCode.F10))
         {
             if (speedDisplayType)
@@ -65,6 +69,7 @@ public class DuskSRQOLPlugin : BaseUnityPlugin
                 textLingerFixTimer = 0.01f;
         }
 
+        //Persistent level stats toggle
         if(Input.GetKeyDown(KeyCode.F11))
         {
             if (permStatus)
@@ -73,30 +78,32 @@ public class DuskSRQOLPlugin : BaseUnityPlugin
                 permStatus = true;
         }
 
+        //More text linger fix stuff
         if (textLingerFix && textLingerFixTimer == 0)
         {
             textLingerFix = false;
         }
 
-        if (speedometerType == 1f)
+        //Speedometer type stuff
+        if (speedometerType == 1f) //Overall units
         {
             speedometerSpeed = Mathf.Round(playerSpeed.velocity.magnitude * 1f);
 
             SpeedometerShow(speedometerDisplay + "u");
         }
-        if (speedometerType == 2f)
+        if (speedometerType == 2f) //Horizontal units
         {
             speedometerSpeed = Mathf.Round(Mathf.Abs(playerSpeed.velocity.x + playerSpeed.velocity.z * 1f));
 
             SpeedometerShow(speedometerDisplay + "H/u");
         }
-        if (speedometerType == 3f)
+        if (speedometerType == 3f) //Vertical units
         {
             speedometerSpeed = Mathf.Round(Mathf.Abs(playerSpeed.velocity.y * 1f));
 
             SpeedometerShow(speedometerDisplay + "V/u");
         }
-        if (speedometerType == 4f)
+        if (speedometerType == 4f) //Horizontal + Vertical units
         {
             speedometerSpeed = Mathf.Round(Mathf.Abs(playerSpeed.velocity.x + playerSpeed.velocity.z * 1f));
             SecondarySpeedometerSpeed = Mathf.Round(Mathf.Abs(playerSpeed.velocity.y * 1f ));
@@ -104,6 +111,7 @@ public class DuskSRQOLPlugin : BaseUnityPlugin
             SpeedometerShow(speedometerDisplay + "H/u " + SecondarySpeedometerSpeed + "V/u");
         }
 
+        //Show the level stats if persistent level stats is enabled
         if (permStatus)
         {
             StatsN.alpha = 0.8f;
@@ -113,7 +121,7 @@ public class DuskSRQOLPlugin : BaseUnityPlugin
             StatsS.alpha = 0.8f;
         }
 
-        if (textLingerFixTimer > 0) textLingerFixTimer -= Time.deltaTime;
+        if (textLingerFixTimer > 0) textLingerFixTimer -= Time.deltaTime; //Timer countdown
     }
 
     void SpeedometerShow(string message)
@@ -125,6 +133,7 @@ public class DuskSRQOLPlugin : BaseUnityPlugin
         var Ttimer   = Ttext.GetComponent<ClearMessageAfterTime>();
         var Mtimer   = Mtext.GetComponent<ClearMessageAfterTime>();
 
+        //If there's no speedometer then revert text back to default colors
         if (speedometerType == 0)
         {
             Ttmpro.color = new Color(1f, 0.1324f, 0.1324f, 1f);
@@ -136,7 +145,7 @@ public class DuskSRQOLPlugin : BaseUnityPlugin
             Ttmpro.text  = message;
             Ttimer.timer = Ttimer.defaulttime;
 
-            if (speedometerType != 0)
+            if (speedometerType != 0) //If there's a speedometer and the display is true then make the tutorial prompt text white
             {
                 Ttmpro.color = Color.white;
                 Mtmpro.color = new Color(0.5735f, 0f, 0f, 1f);
@@ -147,13 +156,14 @@ public class DuskSRQOLPlugin : BaseUnityPlugin
             Mtmpro.text  = message;
             Mtimer.timer = Mtimer.defaulttime;
 
-            if (speedometerType != 0)
+            if (speedometerType != 0) //If false then make the message prompt text white
             {
                 Ttmpro.color = new Color(1f, 0.1324f, 0.1324f, 1f);
                 Mtmpro.color = Color.white;
             }
         }
 
+        //Even more text linger fix bullshit
         if (textLingerFix)
         {
             if (speedometerType != 0)

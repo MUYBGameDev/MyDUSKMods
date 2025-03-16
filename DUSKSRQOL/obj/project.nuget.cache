@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pAyS36qoOzh4iF8kNGvHLD5tcaoQUtqJ0IGV/o9G4sMbyFh43fCu5YfdxCpNSAtUSa655uKQQKnJgVnywuiBWQ==",
+  "dgSpecHash": "+oOLiWf2M1/1LaL+JdR8t3TrX5oUchd+7LginQ+iLY2f/3UjFKaFFVEzgOK6djFL1IV3gatAhcmeulZyC36U3Q==",
   "success": true,
-  "projectFilePath": "/home/deck/Documents/DUSKSRQOL/DuskSRQOL.csproj",
+  "projectFilePath": "/home/deck/Documents/MyDUSKMods/DUSKSRQOL/DuskSRQOL.csproj",
   "expectedPackageFiles": [
     "/home/deck/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
     "/home/deck/.nuget/packages/microsoft.netframework.referenceassemblies.net46/1.0.3/microsoft.netframework.referenceassemblies.net46.1.0.3.nupkg.sha512"

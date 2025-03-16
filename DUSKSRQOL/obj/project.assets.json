@@ -368,11 +368,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/deck/Documents/DUSKSRQOL/DuskSRQOL.csproj",
+      "projectUniqueName": "/home/deck/Documents/MyDUSKMods/DUSKSRQOL/DuskSRQOL.csproj",
       "projectName": "DuskSRQOL",
-      "projectPath": "/home/deck/Documents/DUSKSRQOL/DuskSRQOL.csproj",
+      "projectPath": "/home/deck/Documents/MyDUSKMods/DUSKSRQOL/DuskSRQOL.csproj",
       "packagesPath": "/home/deck/.nuget/packages/",
-      "outputPath": "/home/deck/Documents/DUSKSRQOL/obj/",
+      "outputPath": "/home/deck/Documents/MyDUSKMods/DUSKSRQOL/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/deck/.nuget/NuGet/NuGet.Config"

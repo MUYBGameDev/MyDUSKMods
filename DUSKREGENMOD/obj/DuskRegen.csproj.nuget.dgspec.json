@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/deck/Documents/DUSKREGENMOD/DuskRegen.csproj": {}
+    "/home/deck/Documents/MyDUSKMods/DUSKREGENMOD/DuskRegen.csproj": {}
   },
   "projects": {
-    "/home/deck/Documents/DUSKREGENMOD/DuskRegen.csproj": {
+    "/home/deck/Documents/MyDUSKMods/DUSKREGENMOD/DuskRegen.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/deck/Documents/DUSKREGENMOD/DuskRegen.csproj",
+        "projectUniqueName": "/home/deck/Documents/MyDUSKMods/DUSKREGENMOD/DuskRegen.csproj",
         "projectName": "DuskRegen",
-        "projectPath": "/home/deck/Documents/DUSKREGENMOD/DuskRegen.csproj",
+        "projectPath": "/home/deck/Documents/MyDUSKMods/DUSKREGENMOD/DuskRegen.csproj",
         "packagesPath": "/home/deck/.nuget/packages/",
-        "outputPath": "/home/deck/Documents/DUSKREGENMOD/obj/",
+        "outputPath": "/home/deck/Documents/MyDUSKMods/DUSKREGENMOD/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/deck/.nuget/NuGet/NuGet.Config"

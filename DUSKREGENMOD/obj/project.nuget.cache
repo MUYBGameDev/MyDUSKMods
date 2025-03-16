@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XqTG3xE+/UdokBs1Tniy7vot5bOBVC55QTmULGzpK5vyTmy2u6bE4T16f2Hqce8q5Uoux19dV/HxLnOAXUbpsw==",
+  "dgSpecHash": "MUTNJeyVRJS5syYVXvNgKJ+AvdxClLeFgR4uAyJV3dCpPppdPDOJYRqWo8cq9FeQluk2Uw+2o5i/lxSANx3hXg==",
   "success": true,
-  "projectFilePath": "/home/deck/Documents/DUSKREGENMOD/DuskRegen.csproj",
+  "projectFilePath": "/home/deck/Documents/MyDUSKMods/DUSKREGENMOD/DuskRegen.csproj",
   "expectedPackageFiles": [
     "/home/deck/.nuget/packages/microsoft.netframework.referenceassemblies/1.0.3/microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
     "/home/deck/.nuget/packages/microsoft.netframework.referenceassemblies.net46/1.0.3/microsoft.netframework.referenceassemblies.net46.1.0.3.nupkg.sha512"
